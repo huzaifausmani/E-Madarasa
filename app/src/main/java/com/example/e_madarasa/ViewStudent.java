@@ -44,10 +44,10 @@ public class ViewStudent extends RecyclerView.Adapter<ViewStudent.MyViewHolder> 
         Lessons data;
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            sabak = itemView.findViewById(R.id.sabak);
-            sabki = itemView.findViewById(R.id.sabki);
-            manzil = itemView.findViewById(R.id.manzil);
-            date = itemView.findViewById(R.id.date);
+            sabak = itemView.findViewById(R.id.sabakText);
+            sabki = itemView.findViewById(R.id.sabkiText);
+            manzil = itemView.findViewById(R.id.manzilText);
+            date = itemView.findViewById(R.id.dateText);
 
         }
     }

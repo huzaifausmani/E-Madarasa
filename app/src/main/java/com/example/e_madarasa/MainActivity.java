@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Intent intent = getIntent();
         String name = intent.getStringExtra("Name");
-        id = Integer.parseInt(intent.getStringExtra("student_id"));
+        id = Integer.parseInt(intent.getStringExtra("Id"));
         db = new Database(this);
 
         btn = findViewById(R.id.addDetail);
